@@ -1,0 +1,42 @@
+.button{
+border: 1px solid red;
+
+ font-size: 13px;
+ padding: 8px;
+ cursor: pointer;
+ background-color: black;
+ color: white;
+
+}
+
+
+.buttondiv{
+  
+    border: 2px solid rgb(7, 7, 7);
+    display: flex;
+    position: absolute;
+    margin: auto;
+    padding: 10px;
+    margin-left: 429px;
+    margin-top: 157px;
+}
+@media screen and  (max-width: 720px)
+    {
+        .buttondiv {
+            border: 2px solid rgb(0, 0, 0);
+            
+            margin-top: 119px;
+            margin-left: 116px;
+        }
+
+        .button{
+            
+            
+             font-size: 13px;
+             padding: 8px;
+             cursor: pointer;
+             
+            
+            }
+    }
+
